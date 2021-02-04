@@ -1,0 +1,13 @@
+body{
+  background-color: rgb(0, 0, 0);
+}
+
+
+
+.wolf:hover{
+  opacity: 0.6;
+  width: 550px;
+  height: 550px;
+
+  filter:drop-shadow(0px 0px 10px #ffffff);
+}

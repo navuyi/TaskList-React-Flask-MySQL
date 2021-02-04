@@ -1,0 +1,76 @@
+.main{
+    width: 20vw;
+    min-width: 350px;
+    min-height: 550px;
+    height: 55vh;
+    background-image: linear-gradient(15deg, rgba(107, 107, 107, 0.4), rgba(85, 85, 85, 0.4));
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+    
+
+    border-radius: 1.5vw;
+    font-size: 16px;
+}
+.icon{
+    width: 30%;
+    min-width: 15%;
+    
+    filter: grayscale(1) drop-shadow(0px 0px 10px #0b6dcf);
+    margin-bottom: 10%;
+}
+.main form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    position: relative;
+    
+    width: 100%;
+    
+}
+.main button{
+    position: absolute;
+    bottom: -30%;
+
+    outline: none;
+    border: none;
+
+    font-size: 1.2em;
+    width: 50%;
+    height: 15%;
+    border-radius: 0.5em;
+
+    background-image: linear-gradient(rgb(4, 85, 161), rgb(2, 32, 87));
+}
+.main button:hover{
+    background-image: linear-gradient(rgb(3, 117, 224),rgb(3, 57, 158));
+}
+.main button:active{
+    box-shadow: 0px 0px 10px 1px #ffffff;
+}
+.main p{
+    font-size: 1.2em;
+    color: red;
+    position: absolute;
+    bottom: -35%;
+
+    filter: drop-shadow(0px 0px 20px #992704fb);
+}
+.input{
+    margin: 25px;
+    font-size: 1.3em;
+
+    border-radius: 0.5vw;
+    border: none;
+
+    text-align: left;
+    outline: none;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+    padding-left: 1em;
+}
