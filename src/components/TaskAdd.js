@@ -81,7 +81,7 @@ class TaskAdd extends react.Component{
             
           </form> 
           <div className={styles.icon}> </div>
-          <button className={styles.logoutButton} onClick={this.logout}> Log out </button>
+          <button className={styles.logoutButton} onClick={this.logout}> Leave </button>
           
       </div>
     )
